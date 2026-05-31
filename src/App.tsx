@@ -1,6 +1,7 @@
 import React, { useState, createContext, useContext } from 'react';
 import { Menu, X, ArrowRight, CheckCircle2, ChevronRight, Globe, TrendingUp, Search } from 'lucide-react';
 import { LangOption, translations } from './translations';
+import logoUrl from './assets/images/logo.png';
 
 const LangContext = createContext<{
   lang: LangOption;
@@ -23,7 +24,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center gap-3">
-            <img id="logo" src="/logo.png" alt="OmegaWeb" className="h-8 w-auto grayscale brightness-200" />
+            <img id="logo" src={logoUrl} alt="OmegaWeb" className="h-8 w-auto grayscale brightness-200" />
             <span className="font-display text-xl font-bold tracking-tight text-[#FF5A23] uppercase">OMEGAWEB</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -347,7 +348,7 @@ function Footer() {
               {t.footer.subtitle}
             </p>
             <div className="flex items-center text-white/50 mt-12 gap-3">
-              <img src="/logo.png" className="h-6 w-auto grayscale brightness-200" alt="Logo" />
+              <img src={logoUrl} className="h-6 w-auto grayscale brightness-200" alt="Logo" />
               <span className="font-display text-xl font-bold tracking-tight uppercase">OMEGAWEB</span>
             </div>
             <p className="text-white/30 tracking-widest uppercase text-xs font-bold mt-4">{t.footer.agency}</p>
