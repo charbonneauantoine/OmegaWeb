@@ -1,0 +1,210 @@
+export type LangOption = 'fr' | 'en';
+
+export const translations = {
+  fr: {
+    nav: {
+      services: "Services",
+      realisations: "Réalisations", 
+      tarifs: "Tarifs",
+      contact: "Contact",
+      cta: "Obtenir mon site"
+    },
+    hero: {
+      title1: "Plus de clients.",
+      title2: "En ligne.",
+      title3: "Maintenant.",
+      subtitle: "On crée votre site web en 2 semaines — pensé pour attirer des clients, pas juste pour être beau.",
+      btnPrimary: "Voir nos forfaits",
+      btnSecondary: "Voir des exemples",
+      agency: "Agence Web • Québec"
+    },
+    trust: {
+      days: "14 JOURS",
+      daysSub: "Sites livrés en 2 semaines",
+      clients: "150+",
+      clientsSub: "Clients satisfaits",
+      support: "24/7",
+      supportSub: "Support inclus 3 mois"
+    },
+    problem: {
+      title1: "Vos clients cherchent en ligne.",
+      title2: "Vous n'y êtes pas encore ?",
+      subtitle: "Ne laissez plus vos concurrents capturer tout le marché québécois. Avoir un \"beau\" site web ne suffit plus, il faut convertir.",
+      oldApproach: "L'ancienne approche",
+      old1: "• Des mois d'attente pour la livraison",
+      old2: "• Design complexe sans objectif clair",
+      old3: "• Coûts cachés et dépassements",
+      old4: "• Zéro optimisation pour Google",
+      newApproach: "La méthode OmegaWeb",
+      new1: "• En ligne en 14 jours chrono",
+      new2: "• Conçu pour générer des leads",
+      new3: "• Prix fixe transparent dès le jour 1",
+      new4: "• Optimisé SEO local (Québec)"
+    },
+    services: {
+      title: "Des sites qui travaillent",
+      titleHighlight: "pour vous",
+      subtitle: "Notre mission est simple : transformer vos visiteurs en clients payants avec un outil digital performant.",
+      s1Title: "Design orienté conversion",
+      s1Desc: "Nous créons des interfaces modernes où chaque élément est pensé pour guider le visiteur vers la section contact.",
+      s2Title: "Optimisation SEO Local",
+      s2Desc: "Apparaissez quand vos clients à proximité cherchent vos services sur Google.",
+      s3Title: "Performance & Vitesse",
+      s3Desc: "Des sites ultra-rapides qui retiennent l'attention et sont favorisés par les moteurs de recherche."
+    },
+    portfolio: {
+      title: "Nos dernières",
+      titleHighlight: "réalisations",
+      subtitle: "Découvrez comment nous avons aidé d'autres entreprises à dominer leur marché en ligne.",
+      startProj: "Démarrer mon projet",
+      projTag: "Projet #",
+      projName: "Entreprise Locale inc.",
+      projDesc: "Refonte complète du site web avec un focus sur la réservation en ligne et l'optimisation SEO locale. +150% de prospects le premier mois."
+    },
+    pricing: {
+      title: "Des forfaits simples.",
+      titleHighlight: "surprises.",
+      titleNo: "Sans",
+      subtitle: "Choisissez le plan qui correspond à l'ambition de votre PME.",
+      plan1Name: "Essentiel",
+      plan1Tag: "Parfait pour les nouvelles entreprises.",
+      plan1Price: "À partir de 499$",
+      p1f1: "Site vitrine (1 à 3 pages)",
+      p1f2: "Design responsive (Mobile & Desktop)",
+      p1f3: "Formulaire de contact intégré",
+      p1f4: "Optimisation SEO de base",
+      p1f5: "Livraison en 2 semaines",
+      plan2Name: "Croissance",
+      plan2Tag: "Pour dominer votre marché local.",
+      plan2Price: "À partir de 2999$",
+      plan2Pop: "LE PLUS POPULAIRE",
+      p2f1: "Site complet (Jusqu'à 8 pages)",
+      p2f2: "Design premium sur-mesure",
+      p2f3: "Intégration d'outils (Calendly, CRM, etc.)",
+      p2f4: "Optimisation SEO avancée & Vitesse",
+      p2f5: "Support prioritaire inclus (3 mois)",
+      select: "Sélectionner"
+    },
+    footer: {
+      title: "Prêt à dominer",
+      titleHighlight: "votre marché?",
+      subtitle: "Remplissez ce formulaire et nous vous contacterons dans les prochaines 24h ouvrables pour une évaluation gratuite.",
+      agency: "Agence Web fièrement Québécoise.",
+      formName: "Prénom et nom *",
+      formNamePlaceholder: "Jean Tremblay",
+      formCompany: "Entreprise",
+      formCompanyPlaceholder: "Mon Entreprise inc.",
+      formEmail: "Courriel *",
+      formEmailPlaceholder: "jean@exemple.com",
+      formNeeds: "Parlez-nous de vos besoins",
+      formNeedsPlaceholder: "Je voudrais refaire mon site web pour obtenir plus de soumissions...",
+      formSubmit: "Demander mon évaluation gratuite",
+      copyright: "© 2026 OmegaWeb. Tous droits réservés.",
+      privacy: "Politique de confidentialité",
+      terms: "Termes et conditions"
+    }
+  },
+  en: {
+    nav: {
+      services: "Services",
+      realisations: "Portfolio", 
+      tarifs: "Pricing",
+      contact: "Contact",
+      cta: "Get your website"
+    },
+    hero: {
+      title1: "More clients.",
+      title2: "Online.",
+      title3: "Now.",
+      subtitle: "We build your website in 2 weeks — designed to attract clients, not just to look pretty.",
+      btnPrimary: "See our plans",
+      btnSecondary: "View examples",
+      agency: "Web Agency • Quebec"
+    },
+    trust: {
+      days: "14 DAYS",
+      daysSub: "Websites delivered in 2 weeks",
+      clients: "150+",
+      clientsSub: "Satisfied clients",
+      support: "24/7",
+      supportSub: "Support included for 3 months"
+    },
+    problem: {
+      title1: "Your clients are searching online.",
+      title2: "Are you there yet?",
+      subtitle: "Stop letting your competitors capture the entire Quebec market. Having a \"pretty\" website isn't enough, it needs to convert.",
+      oldApproach: "The old approach",
+      old1: "• Months of waiting for delivery",
+      old2: "• Complex design with no clear goal",
+      old3: "• Hidden costs and budget overruns",
+      old4: "• Zero SEO optimization for Google",
+      newApproach: "The OmegaWeb method",
+      new1: "• Online in 14 days flat",
+      new2: "• Designed to generate leads",
+      new3: "• Transparent fixed pricing from day 1",
+      new4: "• Local SEO optimized (Quebec)"
+    },
+    services: {
+      title: "Websites that work",
+      titleHighlight: "for you",
+      subtitle: "Our mission is simple: transform your visitors into paying customers with a highly effective digital tool.",
+      s1Title: "Conversion-driven design",
+      s1Desc: "We create modern interfaces where every element is designed to guide the visitor to the contact section.",
+      s2Title: "Local SEO Optimization",
+      s2Desc: "Show up when local customers search for your services on Google.",
+      s3Title: "Performance & Speed",
+      s3Desc: "Ultra-fast websites that retain attention and are favored by search engines."
+    },
+    portfolio: {
+      title: "Our latest",
+      titleHighlight: "work",
+      subtitle: "Discover how we've helped other businesses dominate their local market online.",
+      startProj: "Start my project",
+      projTag: "Project #",
+      projName: "Local Business Inc.",
+      projDesc: "Complete website redesign with focus on online booking and local SEO optimization. +150% more leads in the first month."
+    },
+    pricing: {
+      title: "Simple pricing.",
+      titleHighlight: "surprises.",
+      titleNo: "No",
+      subtitle: "Choose the plan that matches your business ambitions.",
+      plan1Name: "Essential",
+      plan1Tag: "Perfect for new businesses.",
+      plan1Price: "Starting at $499",
+      p1f1: "Showcase website (1 to 3 pages)",
+      p1f2: "Responsive design (Mobile & Desktop)",
+      p1f3: "Integrated contact form",
+      p1f4: "Basic SEO optimization",
+      p1f5: "Delivery in 2 weeks",
+      plan2Name: "Growth",
+      plan2Tag: "To dominate your local market.",
+      plan2Price: "Starting at $2999",
+      plan2Pop: "MOST POPULAR",
+      p2f1: "Complete website (Up to 8 pages)",
+      p2f2: "Premium custom design",
+      p2f3: "Tools integration (Calendly, CRM, etc.)",
+      p2f4: "Advanced SEO optimization & Speed",
+      p2f5: "Priority support included (3 months)",
+      select: "Select"
+    },
+    footer: {
+      title: "Ready to dominate",
+      titleHighlight: "your market?",
+      subtitle: "Fill out this form and we'll contact you within the next 24 business hours for a free evaluation.",
+      agency: "Proudly Québécois Web Agency.",
+      formName: "Full Name *",
+      formNamePlaceholder: "John Doe",
+      formCompany: "Company",
+      formCompanyPlaceholder: "My Company Inc.",
+      formEmail: "Email *",
+      formEmailPlaceholder: "john@example.com",
+      formNeeds: "Tell us about your needs",
+      formNeedsPlaceholder: "I would like to redesign my website to get more leads...",
+      formSubmit: "Request my free evaluation",
+      copyright: "© 2026 OmegaWeb. All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms and conditions"
+    }
+  }
+};
